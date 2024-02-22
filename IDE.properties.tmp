@@ -29,6 +29,7 @@ rewrite-gradle
 rewrite-groovy
 rewrite-hcl
 rewrite-json
+rewrite-jsonschema
 rewrite-maven
 rewrite-properties
 rewrite-protobuf

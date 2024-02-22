@@ -22,6 +22,7 @@ val allProjects = listOf(
         "rewrite-java-17", // remove this when rewrite recipe gradle plugin moves to 21
         "rewrite-java-21",
         "rewrite-json",
+        "rewrite-jsonschema",
         "rewrite-maven",
         "rewrite-properties",
         "rewrite-protobuf",
