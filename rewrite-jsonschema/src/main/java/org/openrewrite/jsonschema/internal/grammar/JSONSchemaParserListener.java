@@ -1,4 +1,4 @@
-package org.openrewrite.protobuf.internal.grammar;// Generated from /home/acouty/git/personnal/rewrite/rewrite-jsonschema/src/main/antlr/JSONSchemaParser.g4 by ANTLR 4.13.1
+package org.openrewrite.jsonschema.internal.grammar;// Generated from /home/acouty/git/personnal/rewrite/rewrite-jsonschema/src/main/antlr/JSONSchemaParser.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

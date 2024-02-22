@@ -13,23 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.openrewrite.protobuf.tree;
+package org.openrewrite.jsonschema.tree;
 
-import lombok.*;
-import lombok.experimental.FieldDefaults;
-import lombok.experimental.NonFinal;
 import org.openrewrite.*;
 import org.openrewrite.internal.lang.Nullable;
 import org.openrewrite.marker.Markers;
-import org.openrewrite.protobuf.ProtoVisitor;
-import org.openrewrite.protobuf.internal.ProtoPrinter;
-import org.openrewrite.protobuf.tree.proto.*;
 
-import java.lang.ref.WeakReference;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Path;
-import java.util.List;
 import java.util.UUID;
 
 public interface JsonSchema extends Tree {

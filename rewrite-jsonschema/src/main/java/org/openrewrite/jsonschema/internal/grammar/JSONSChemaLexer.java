@@ -1,4 +1,4 @@
-// Generated from /home/acouty/git/personnal/rewrite/rewrite-jsonschema/src/main/antlr/JSONSChemaLexer.g4 by ANTLR 4.13.1
+package org.openrewrite.jsonschema.internal.grammar;// Generated from /home/acouty/git/personnal/rewrite/rewrite-jsonschema/src/main/antlr/JSONSChemaLexer.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;

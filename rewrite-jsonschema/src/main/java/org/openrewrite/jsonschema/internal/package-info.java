@@ -13,18 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.openrewrite.protobuf.tree.proto;
+@NonNullApi
+package org.openrewrite.jsonschema.internal;
 
-import lombok.Value;
-import lombok.With;
-import org.openrewrite.marker.Markers;
-
-@Value
-@With
-public class Comment {
-    boolean multiline;
-
-    String text;
-    String suffix;
-    Markers markers;
-}
+import org.openrewrite.internal.lang.NonNullApi;

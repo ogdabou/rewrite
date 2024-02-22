@@ -13,19 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.openrewrite.protobuf;
+@NonNullApi
+package org.openrewrite.jsonschema;
 
-import java.nio.file.Path;
-
-public class ProtoParsingException extends Exception {
-    private final Path sourcePath;
-
-    public ProtoParsingException(Path sourcePath, String message, Throwable t) {
-        super(message, t);
-        this.sourcePath = sourcePath;
-    }
-
-    public Path getSourcePath() {
-        return sourcePath;
-    }
-}
+import org.openrewrite.internal.lang.NonNullApi;
